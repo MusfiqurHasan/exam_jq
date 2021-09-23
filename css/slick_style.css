@@ -1,0 +1,27 @@
+.s_slider  {
+    background-color: #3598db;
+}
+
+.slider1 h2{
+    margin-bottom: 40px;
+    padding: 45px 0;
+    font-size: 30px;
+    background-color: white;
+    color: #3598db;
+}
+
+.slider2 h2{
+    margin: 0 20px;
+    padding: 45px 0;
+    font-size: 30px;
+    background-color: white;
+    color: #3598db;
+}
+
+.slick-next {
+    right: -75px !important;
+}
+.slick-prev {
+    left: -75px !important;
+   
+}

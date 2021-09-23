@@ -1,0 +1,132 @@
+/*.btn{
+    background: linear-gradient(to bottom, rgba(183,222,237,1) 0%,
+     rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%,
+     rgba(183,222,237,1) 100%);
+    z-index: 999;
+    position: fixed;
+    padding: 0px;
+    bottom: 90px;
+    right: 35px;
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    height: 100px;
+}
+.container{
+    border: 1px solid black;
+    max-width: 1000px;
+    max-height: 500px;
+    padding: 80px 10px;
+}
+.wrapper {
+    width: 212px;
+    margin: 0 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.c_text{
+    color: orange;
+    text-align: center;
+}
+.img-fluid{
+    max-width: 60%;
+    margin: 0px 50px;
+}
+.product_btn{
+    margin: 10px 73px;
+    border: none;
+    border-radius: 7px;
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+}*/
+        
+.btn{
+    background: linear-gradient(to bottom, rgba(19,88,127,.7) 0%,
+     rgba(19,88,127,.7) 60%,
+     #427399 60%, #427399 100% );
+    font-size: 20px;
+    position: fixed;
+    padding: 0px;
+    bottom: 90px;
+    right: 35px;
+    background-size: cover;
+}
+.c_text{
+    text-align: center;
+    color: #1F6CA0;
+}
+.c_text a {
+    text-decoration: none;
+}
+
+.wrapper{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+.product_btn{
+    width: 155px;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #1F6CA0;
+}
+
+.slick-prev{
+    left: -50px;
+    z-index: 1;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.slick-next {
+    right: -50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 60px;
+    height: 80px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: black;
+    background-color: #1F6CA0;
+}
+
+.slick-prev:before {
+    content: '\f053';
+}
+.slick-next:before {
+    content: '\f054';
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'Font Awesome 5 Free';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    opacity: 1;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev:hover, .slick-prev:focus, 
+.slick-next:hover, .slick-next:focus {
+    color: white;
+    outline: none;
+    background: black;
+}
